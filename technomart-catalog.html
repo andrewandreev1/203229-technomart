@@ -10,7 +10,7 @@
 	<header class="main-header">
 		<div class="top-header">
 			<div class="container">
-				<a href="index.html" class="first-a"><img src="" alt="Техномарт"></a>
+				<a href="index.html" class="logo"><img src="" alt="Техномарт"></a>
 				<form>
 					<input type="text" placeholder="Поиск">
 
@@ -32,8 +32,9 @@
 				</div>
 
 				<div class="user-block">
-					<div class="client-name">
-						<span><!--Равшан --></span>
+					<div class="account">
+						<a href="#">Равшан Джамшутович</a>
+						<a href="#" class="logout"></a>
 
 					</div>
 					<ul>
@@ -71,7 +72,9 @@
 			</div>
 
 			<section class="filter">
+				<form>
 				<div>
+					
 					<span>Фильтр:</span>
 				</div>
 
@@ -80,11 +83,9 @@
 						<input type="range">
 					</div>
 					<div>
-						<!-- Начальная цена. Не знаю, какие теги тут использовать -->
 						<div class="starting-price">
 							<input type="text">
 						</div>
-						<!-- Конечная цена. Не знаю, какие теги тут использовать -->
 						<div class="final-price">
 							<input type="text">
 						</div>
@@ -93,6 +94,7 @@
 
 				<div class="companies">
 					<h3>Производители:</h3>
+					
 					<input type="checkbox" id="t1">
 					<label for="t1">
 						bosch</label>
@@ -108,37 +110,45 @@
 					<input type="checkbox" id="t5">
 					<label for="t5">
 						hitachi</label>
-					<!--использовал классы тк в критериях зачета проекта не рекомендуется использовать id -->
+						
+					
 
 				</div>
 				<div class="power">
 					<h3>Питание:</h3>
+					
 					<input type="radio" id="p1" checked>
 					<label for="p1">Аккумуляторные</label>
 					<input type="radio" id="p2">
 					<label for="p2">Сетевые</label>
+					
 
 				</div>
+				
 				<button type="button">Показать</button>
+				</form>
 			</section>
 
 
-			<section class="goods">
+			<section class="catalog">
 				<div class="sorting">
 					<span>Сортировка:</span>
 					<ul>
 						<li><a href="#">по цене</a></li>
 						<li><a href="#">по типу</a></li>
 						<li><a href="#">по функционалу</a></li>
+						</ul>
+						<ul>
 						<li><a href="#" class="up-to-down"><i></i></a></li>
 						<li><a href="#" class="up-to-up"><i></i></a></li>
-					</ul>
+						</ul>
+					
 				</div>
 
 				<article class="popular-things-item">
 					<img src="#" alt="Перфоратор Bosh BFG-3000">
 
-					<h2>Перфоратор Bosh BFG-3000</h2>
+					<h1>Перфоратор Bosh BFG-3000</h1>
 					<span>22500 P.</span>
 					<a href="#">15500 P.</a>
 					<div class="hidden-block">
@@ -149,7 +159,7 @@
 				<article class="popular-things-item">
 					<img src="#" alt="Перфоратор Bosh BFG-6000">
 
-					<h2>Перфоратор Bosh BFG-6000</h2>
+					<h1>Перфоратор Bosh BFG-6000</h1>
 					<span>30500 P.</span>
 					<a href="#">25500 P.</a>
 					<div class="hidden-block">
@@ -160,7 +170,7 @@
 				<article class="popular-things-item">
 					<img src="#" alt="Перфоратор Bosh BFG-2000">
 
-					<h2>Перфоратор Bosh BFG-2000</h2>
+					<h1>Перфоратор Bosh BFG-2000</h1>
 
 					<a href="#">12500 P.</a>
 					<div class="hidden-block">
@@ -173,7 +183,7 @@
 				<article class="popular-things-item">
 					<img src="#" alt="Перфоратор Bosh BFG-3000">
 
-					<h2>Перфоратор Bosh BFG-3000</h2>
+					<h1>Перфоратор Bosh BFG-3000</h1>
 					<span>22500 P.</span>
 					<a href="#">15500 P.</a>
 					<div class="hidden-block">
@@ -184,7 +194,7 @@
 				<article class="popular-things-item">
 					<img src="#" alt="Перфоратор Bosh BFG-6000">
 
-					<h2>Перфоратор Bosh BFG-6000</h2>
+					<h1>Перфоратор Bosh BFG-6000</h1>
 					<span>30500 P.</span>
 					<a href="#">25500 P.</a>
 					<div class="hidden-block">
@@ -195,7 +205,7 @@
 				<article class="popular-things-item">
 					<img src="#" alt="Перфоратор Bosh BFG-2000">
 
-					<h2>Перфоратор Bosh BFG-2000</h2>
+					<h1>Перфоратор Bosh BFG-2000</h1>
 
 					<a href="#">12500 P.</a>
 					<div class="hidden-block">
@@ -208,7 +218,7 @@
 				<article class="popular-things-item">
 					<img src="#" alt="Перфоратор Bosh BFG-3000">
 
-					<h2>Перфоратор Bosh BFG-3000</h2>
+					<h1>Перфоратор Bosh BFG-3000</h1>
 					<span>22500 P.</span>
 					<a href="#">15500 P.</a>
 					<div class="hidden-block">
@@ -219,7 +229,7 @@
 				<article class="popular-things-item">
 					<img src="#" alt="Перфоратор Bosh BFG-6000">
 
-					<h2>Перфоратор Bosh BFG-6000</h2>
+					<h1>Перфоратор Bosh BFG-6000</h1>
 					<span>30500 P.</span>
 					<a href="#">25500 P.</a>
 					<div class="hidden-block">
@@ -230,7 +240,7 @@
 				<article class="popular-things-item">
 					<img src="#" alt="Перфоратор Bosh BFG-2000">
 
-					<h2>Перфоратор Bosh BFG-2000</h2>
+					<h1>Перфоратор Bosh BFG-2000</h1>
 
 					<a href="#">12500 P.</a>
 					<div class="hidden-block">
@@ -254,7 +264,7 @@
 		<section class="about-goods">
 			<div class="container">
 				<h2>Пара слов о перфораторах</h2>
-				<p>Перфоратор- универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне. Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В ассортиментном ряду есть выбор " трехрежимников": в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
+				<p>Перфоратор - универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне. Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В ассортиментном ряду есть выбор " трехрежимников": в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
 			</div>
 		</section>
 
