@@ -1,0 +1,36 @@
+/* ТЕХНОМАРТ */
+body {
+	background: #fff;
+	width: 1200px;
+}
+.everything-item{
+	border: 1px solid black;
+	width: 300px;
+	height: 123px;
+	margin: 20px;
+
+	
+}
+.main-list{
+	border: 1px solid black;
+height:  266px;
+width:  620px;
+	
+	
+	
+}
+/*
+div .everything-item:first-child{
+	background-image: url("/img/Layer 92.png");
+	background: #f6b22d;
+	background-position: center;
+	
+}
+*/
+.services-item{
+	border: 1px solid black;
+	margin: 20px;
+	background-image: image("img/Layer98.png");
+		
+	
+}
