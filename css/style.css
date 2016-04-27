@@ -1,6 +1,10 @@
 .body{
 	width: 1200px;
 }
+header{
+	background-color:#f1f5f7;
+	padding-bottom: 65px;
+}
 .container{
 	position: center;
 	padding-left: 130px;
@@ -30,6 +34,8 @@ a{
 	
 }
 .sub-header *{
+	vertical-align: top;
+	position:relative;
 	display:inline-block;
 	outline: 1px solid red;
 }

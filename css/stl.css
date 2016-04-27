@@ -1,63 +1,25 @@
-.body{
-	width: 1200px;
+main{
+	padding-left:130px; 
+	padding-right:130px; 
 }
-.container{
-	position: center;
-	padding-left: 130px;
-	padding-right: 130px;
-}
-.top-header{
-	width: 1200px;
-	background-color:#293449;
-	text-align: left;
-
-	
-}
-.top-header *{
+.first-everything * {
 	display: inline-block;
 }
-a{
-		color: white;
-}
-.top-header .bookmarks{
-	margin-left: 190px;
-	/*при дальнейшем оформлении появятся новые маргины и паддинги*/
-}
 
-
-.sub-header{
-	width: 1200px;
-	
+.everything-item{
+	border:1px solid green;
+	width: 300px;
+	height: 123px;
+	margin-right:16px;
+	margin-bottom: 20px;
 }
-.sub-header *{
-	display:inline-block;
-	outline: 1px solid red;
+.main-list{
+	width: 620px;
+	height: 266px;
+	border:1px solid black;
+	margin-right:16px;
+	margin-top:-111px;
 }
-.description{
-	margin-left: 0;
-	text-align: left;
-	width: 196px;
-	height: 60px;
-	margin-top: 0px;
-}
-.number{
-	display:block;
-}
-.user-block a{
-	color:black;
-}
-
-
-
-
-
-.main-navigation{
-	background-color: #293449;
-	width: 940px;
-}
-.main-navigation li{
-	margin-left:50px;
-}
-.main-navigation li:first-child{
-	margin-left:30px;
+.second-everything{
+	display: inline-block;
 }
