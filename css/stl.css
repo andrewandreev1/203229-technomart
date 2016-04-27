@@ -34,28 +34,21 @@ a{
 	outline: 1px solid red;
 }
 .description{
-	margin-left: 100px;
+	margin-left: 0;
 	text-align: left;
 	width: 196px;
 	height: 60px;
 	margin-top: 0px;
-	vertical-align: top;
 }
 .number{
 	display:block;
 }
 .user-block a{
 	color:black;
-	
-}
-.contacts{
-	margin-left: 25px;
 }
 
-.user-block {
-	margin-left: 100px;
-	
-}
+
+
 
 
 .main-navigation{
