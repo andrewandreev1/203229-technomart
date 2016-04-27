@@ -1,6 +1,5 @@
 main{
-	padding-left:130px; 
-	padding-right:130px; 
+	margin:0px auto;
 }
 .first-everything * {
 	display: inline-block;
@@ -22,4 +21,153 @@ main{
 }
 .second-everything{
 	display: inline-block;
+}
+.popular-things{
+	width: 940px;
+}
+.popular{
+	width: 940px;
+	min-height:89px ;
+	background-color:#f7f3ec; 
+}
+.popular h2, a{
+	display: inline-block;
+}
+.popular a{
+	float:right;
+	padding-top:40px;
+}
+.popular-things-item:last-child{
+	margin-right: 0px;
+}
+.popular-things-item{
+	width: 224px;
+	min-height: 322px;
+	border:1px solid #e5e5e5;
+	display:inline-block;
+	vertical-align: top;
+	margin-top:20px;
+	margin-right: 7px;
+	margin-bottom: 20px;
+}
+
+.h-popular-companies {
+	width: 940px;
+	min-height:89px ;
+	background-color:#f7f3ec; 
+}
+.popular-companies h2, a{
+	display: inline-block;
+}
+.popular-companies a{
+	float:right;
+}
+.popular-companies-item{
+	display:inline-block;
+	width:  224px;
+	min-height:  149px;
+	border: 1px solid #e5e5e5;
+
+}
+
+.services{
+	background-color: #f2f6f8;
+	min-height: 520px;
+	width: 1200px;
+	padding-top: 20px;
+}
+.services ul, .services-item{
+	display: inline-block;
+}
+.services-item:first-child{
+	padding-top: 20px;
+	padding-left:30px;
+	width: 830px;
+	background: url(../img/delivery.png) no-repeat;
+}
+
+.services-item p{
+	width: 280px;
+}
+.services-item:nth-child(2){
+	display:none;
+}
+.services-item:nth-child(3){
+	display:none;
+}
+.about{
+	width: 1200px;
+	padding-bottom: 50px;
+}
+.about-item{
+	float:left;
+	width: 520px;
+}
+.contacts{
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	background-color: #293449;
+	clear: both;
+}
+.top-footer{
+	background-color: #32425c;
+}
+.top-footer a, .main-footer-navigation {
+	display: inline-block;
+}
+.main-footer-navigation li{
+	display: inline-block;
+	
+}
+.main-footer-navigation{
+	margin-left:500px;
+}
+.address, .category-navigation{
+	display: inline-block;
+}
+.category-navigation li{
+	display:inline-block;
+}
+.category-navigation{
+	margin-left:300px;
+}
+
+
+.copyright, .social-networks, .connection-back{
+	display:inline-block;
+	vertical-align: middle;
+}
+.connection-back p{
+	display:inline-block;
+}
+.sub-footer{
+	text-align: center;
 }
