@@ -1,14 +1,19 @@
 .body{
 	width: 1200px;
 }
+
+
+
+
 header{
+	width: 1200px;
 	background-color:#f1f5f7;
 	padding-bottom: 65px;
+	margin: 0 auto;
 }
 .container{
-	
-	padding-left: 130px;
-	padding-right: 130px;
+	width:940px;
+	margin:0 auto;
 }
 .top-header{
 	width: 1200px;
@@ -23,10 +28,7 @@ header{
 a{
 		color: green;
 }
-.top-header .bookmarks{
-	margin-left: 190px;
-	/*при дальнейшем оформлении появятся новые маргины и паддинги*/
-}
+
 
 
 .sub-header{
@@ -76,6 +78,7 @@ a{
 
 main{
 	margin:0px auto;
+		border: 1px solid black;
 }
 .first-everything * {
 	display: inline-block;
@@ -85,7 +88,7 @@ main{
 	border:1px solid green;
 	width: 300px;
 	height: 123px;
-	margin-right:16px;
+	margin-right:6px;
 	margin-bottom: 20px;
 }
 .main-list{
@@ -93,7 +96,7 @@ main{
 	height: 266px;
 	border:1px solid black;
 	margin-right:16px;
-	margin-top:-111px;
+	
 }
 .second-everything{
 	display: inline-block;
@@ -151,6 +154,7 @@ main{
 	min-height: 520px;
 	width: 1200px;
 	padding-top: 20px;
+	margin: 0 auto;
 }
 .services ul, .services-item{
 	display: inline-block;
@@ -174,6 +178,7 @@ main{
 .about{
 	width: 1200px;
 	padding-bottom: 50px;
+	margin: 0 auto;
 }
 .about-item{
 	float:left;
