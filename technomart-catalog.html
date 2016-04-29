@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
 	<title>HTML Academy: Техномарт</title>
 	<link rel="stylesheet" href="css/normalize.css"> 
+	<link rel="stylesheet" href="css/style.css"> 
 </head>
 
 <body>
@@ -62,11 +63,12 @@
 
 	<main>
 		<div class="container">
-			<a href="index.html"></a>
-			<a href="#">Каталог</a>
-			<a href="#">Инструмент</a>
-			<a href="#">Перфораторы</a>
-
+			<ul class="nav">
+				<li><a href="index.html"></a></li>
+				<li><a href="#">Каталог</a></li>
+				<li><a href="#">Инструмент</a></li>
+				<li><a href="#">Перфораторы</a></li>
+			</ul>
 
 			<div class="headline">
 				<h1>Перфораторы</h1>
@@ -95,23 +97,23 @@
 
 				<div class="companies">
 					<h3>Производители:</h3>
-					
-					<input type="checkbox" id="t1">
+				<ul class="ul-companies">
+					<li><input type="checkbox" id="t1">
 					<label for="t1">
-						bosch</label>
-					<input type="checkbox" id="t2">
+						bosch</label></li>
+					<li><input type="checkbox" id="t2">
 					<label for="t2">
-						интерскол </label>
-					<input type="checkbox" id="t3">
+						интерскол </label></li>
+					<li><input type="checkbox" id="t3">
 					<label for="t3">
-						makita</label>
-					<input type="checkbox" id="t4">
+						makita</label></li>
+					<li><input type="checkbox" id="t4">
 					<label for="t4">
-						dewalt</label>
-					<input type="checkbox" id="t5">
+						dewalt</label></li>
+					<li><input type="checkbox" id="t5">
 					<label for="t5">
-						hitachi</label>
-						
+						hitachi</label></li>
+					</ul>	
 					
 
 				</div>
@@ -133,8 +135,9 @@
 
 			<section class="catalog">
 				<div class="sorting">
-					<span>Сортировка:</span>
-					<ul>
+						<ul>
+							<li><span>Сортировка:</span></li>
+					
 						<li><a href="#">по цене</a></li>
 						<li><a href="#">по типу</a></li>
 						<li><a href="#">по функционалу</a></li>
@@ -262,6 +265,7 @@
 				</div>
 			</section>
 		</div>
+		</main>
 		<section class="about-goods">
 			<div class="container">
 				<h2>Пара слов о перфораторах</h2>
@@ -270,68 +274,72 @@
 		</section>
 
 
-	</main>
 
 
 
 
-	<footer class="main-footer">
-		<div class="top-footer">
-			<div class="container">
-				<div>
-					<a href="index.html" class="logo">Техномарт</a>
-				</div>
-				<div class="main-navigation">
-					<ul>
-						<li>Компания</li>
-						<li>Новости</li>
-						<li>Каталог</li>
-						<li>Доставка</li>
-						<li>Контакты</li>
-					</ul>
-				</div>
+
+	
+  <footer class="main-footer">
+    <div class="top-footer">
+      <div class="container">
+
+        <a href="index.html" class="logo">Техномарт</a>
+
+        <div class="main-footer-navigation">
+          <ul>
+            <li>Компания</li>
+            <li>Новости</li>
+            <li>Каталог</li>
+            <li>Доставка</li>
+            <li>Контакты</li>
+          </ul>
+        </div>
 
 
-				<div class="address">
-					<p>г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8
-						<br>+7 (812) 555-05-55</p>
+        <div class="address">
+          <p>г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8
+            <br>+7 (812) 555-05-55</p>
 
-				</div>
-
-				<div class="category-navigation">
-					<ul>
-						<li>Материалы</li>
-						<li>Техника</li>
-						<li>Инструмент</li>
-						<li>Спецпредложения</li>
-					</ul>
-				</div>
-			</div>
+        </div>
+		  <div class="bcn">
+<div class="before-category-navigation"></div>
+        <div class="category-navigation">
+          <ul>
+            <li>Материалы</li>
+            <li>Техника</li>
+            <li>Инструмент</li>
+            <li>Спецпредложения</li>
+          </ul>
+        </div>
 		</div>
-		<div class="sub-footer">
-			<div class="copyright">
-				<p>&copy;2010-2016 Компания "Техномарт"
-					<br> Все права защищены</p>
-			</div>
-
-			<div class="social-networks">
-				<a href="#">ВК</a>
-				<a href="#">facebook</a>
-				<a href="#">instagram</a>
-			</div>
-
-			<div class="connection-back">
-				<p>Обратная связь:
-					<br>
-					<a href="#">mail@htmlacademy.ru</a>
-				</p>
-				<p>Разработано-
-					<br>
-					<a href="#">htmlacademy.ru</a>
-				</p>
-			</div>
 		</div>
-	</footer>
+      </div>
+  
+    <div class="sub-footer">
+      <div class="copyright">
+        <p>&copy;2010-2016 Компания "Техномарт"
+          <br> Все права защищены</p>
+      </div>
+
+      <div class="social-networks">
+        <a href="#">ВК</a>
+        <a href="#">facebook</a>
+        <a href="#">instagram</a>
+      </div>
+
+      <div class="connection-back">
+        <p>Обратная связь:
+          <br>
+          <a href="#">mail@htmlacademy.ru</a>
+        </p>
+        <p>Разработано-
+          <br>
+          <a href="#">htmlacademy.ru</a>
+        </p>
+      </div>
+    </div>
+  </footer>
 
 </body>
 
