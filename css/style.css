@@ -159,30 +159,10 @@ width: 100%;
 
 
 
-
-
-
-
-
-
-
 .user-block a{
 	color:black;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -257,14 +237,44 @@ display: block;
 
 	background-color: #f2f6f8;
 }
+
+.services .ul-services{
+	width: 240px;
+}
+.services-item{
+	width: 620px;
+}
+.services-item:first-child{
+	background-image: url(../img/delivery.png);
+	background-repeat: no-repeat;
+	
+}
+.services-item:nth-child(2){
+	background-image: url(../img/guarantee.png);
+	background-repeat: no-repeat;
+	display: none;
+}
+.services-item:last-child{
+	background-image: url(../img/credit.png);
+	background-repeat: no-repeat;
+	display: none;
+}
+.ul-services, .services-container{
+	display: inline-block;
+	vertical-align: top;
+	
+}
+.services p {
+  width: 400px;
+  margin-bottom: 75px;
+}
+/*
 .service p {
   width: 400px;
   margin-bottom: 75px;
 }
 
-.services ul, .services-item{
-	display: inline-block;
-}
+
 .services-item:first-child{
 	width: 500px;
 	padding-top: 20px;
@@ -276,11 +286,15 @@ display: block;
 .servvices-item:nth-child(2){
 	width: 500px;
     background: url(../img/guarantee.png) no-repeat;
+	display: none;
 }
 .services-item p{
 	width: 280px;
 }
-
+.guarantee, .credit{
+	display: none;
+}
+*/
 
 /* 
 
@@ -371,7 +385,6 @@ display: inline-block;
 }
 .main-footer-navigation li{
 display: inline-block;
-
 }
 .main-footer-navigation{
 	width: 696px;
@@ -426,10 +439,14 @@ vertical-align: bottom;
 display:inline-block;
 }
 .sub-footer{
-width: 1200px;
+width: 100%;
+	margin: 0 auto;
+	
+}
+.sub-footer-container{
+	width: 940px;
 	margin: 0 auto;
 }
-
 /*
 .main-footer-navigation{
 margin-left:500px;
