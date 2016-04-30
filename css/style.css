@@ -1,43 +1,537 @@
-/* ТЕХНОМАРТ */
-body {
-	background: #fff;
+.body{
 	width: 1200px;
 }
+
+ul{
+  margin:0;
+  padding: 0;
+}
+
+ul li{
+  list-style-type: none;
+}
+
+a{
+		color: green;
+}
+
+a, form, input{
+	display: inline-block;
+}
+
+.container{
+	width:940px;
+	margin:0 auto;
+}
+
+
+main{
+	margin:0px auto;
+
+		outline: 1px solid black;
+}
+
+header{
+	padding-bottom: 65px;
+	background-color:#f1f5f7;
+}
+
+
+
+
+.top-header, .sub-header .description, .contacts, .user-block{
+	display:inline-block;
+
+	vertical-align: top;
+}
+
+.top-header{
+width: 100%;
+	text-align: left;
+	background-color:#293449;
+
+}
+.bargain{
+	width: 150px;
+	outline: 1px solid green;
+}
+.cart{
+	width: 150px;
+	outline: 1px solid green;
+}
+.bookmarks{
+
+	width: 150px;
+	outline: 1px solid green;	
+}
+.search-after{
+	display: inline-block;
+	outline: 1px solid green;
+	width:200px;
+}
+.sub-header{
+  width:940px;
+		margin:0 auto;
+}
+
+.description, .contacts, .user-block{
+	width: 310px;
+	outline: 1px solid green;
+}
+
+
+.main-navigation li{
+	display: inline-block;
+
+	min-height: 40px;
+}
+
+.main-navigation{
+	width: 940px;
+
+	background-color: #293449;
+}
+.main-navigation li{
+	margin-left:50px;
+}
+.main-navigation li:first-child{
+	margin-left:30px;
+}
+
+
+
+
+
 .everything-item{
-	border: 1px solid black;
+  display: inline-block;
+	vertical-align: top;
 	width: 300px;
 	height: 123px;
-	margin: 20px;
-	   background-color: #2ecc71;
-    background-image: url("/img/Layer 92.png");
+	margin-right: 20px;
+	margin-bottom: 20px;
 
-	
+	outline:1px solid green;
+}
+.first-everything .everything-item:first-child{
+	background: #f6b22d;
+}
+.first-everything .everything-item:nth-child(2){
+	background: #4aafde;
+}
+.first-everything .everything-item:nth-child(3){
+	background: #cc79d1;
+}
+.main-list {
+	background: url(../img/background.png) no-repeat;
+}
+.third-everything .everything-item:first-child{
+	background: #85d179;
+}
+.third-everything .everything-item:last-child{
+	background: #f6b22d;
+}
+.everything-item:nth-child(3){
+  margin-right: 0;
 }
 .main-list{
-	border: 1px solid black;
-height:  266px;
-width:  620px;
-	
-	
+	width: 620px;
+	height: 266px;
+	margin-right:20px;
+
+	outline:1px solid black;
+}
+.second-everything{
+	display: inline-block;
+}
+.third-everything{
+  	vertical-align: top;
+    display: inline-block;
+	width: 300px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.user-block a{
+	color:black;
+
+}
+
+
+
+.popular-things{
+	width: 940px;
+}
+.popular{
+	width: 940px;
+	min-height:89px;
+
+	background-color:#f7f3ec;
+}
+.popular h2, a{
+	display: inline-block;
+}
+.popular a{
+	padding-top:40px;
+}
+.popular-things-item:last-child{
+	margin-right: 0px;
+}
+
+.popular-things-item{
+	display:inline-block;
+
+	width: 215px;
+	min-height: 322px;
+	margin-top:20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+
+	vertical-align: top;
+
+	border:1px solid #e5e5e5;
+}
+.popular-things .popular-things-item{
+margin-right: 19.5px;	
+}
+.popular-things-item:last-child{
+	margin-right: 0px;
+}
+.popular-things-item img{
+  margin: 0 auto;
+display: block;
+}
+.h-popular-companies {
+	width: 940px;
+	min-height:89px ;
+
+	background-color:#f7f3ec;
+}
+.popular-companies h2{
+	display: inline-block;
+}
+.popular-companies a{
+  	vertical-align: top;
+	display: inline-block;
+}
+.popular-companies-item{
+	display:inline-block;
+  height: 145px;
+	width: 215px;
+  margin-right: 19.5px;
+	margin-bottom: 20px;
+
+	border: 1px solid #e5e5e5;
+
+}
+.popular-companies-item:nth-child(4n){
+	margin-right: 0;
 	
 }
-/*
-div .everything-item:first-child{
-	background-image: url("/img/Layer 92.png");
-	background: #f6b22d;
-	background-position: center;
+.popular-companies-item:nth-child(n+5){
+	margin-bottom: 80px;
 	
+}
+.services{
+	padding-top: 20px;
+
+	background-color: #f2f6f8;
+}
+
+.services .ul-services{
+	width: 240px;
+}
+.services-item{
+	width: 620px;
+}
+.services-item:first-child{
+	background-image: url(../img/delivery.png);
+	background-repeat: no-repeat;
+	
+}
+.services-item:nth-child(2){
+	background-image: url(../img/guarantee.png);
+	background-repeat: no-repeat;
+	display: none;
+}
+.services-item:last-child{
+	background-image: url(../img/credit.png);
+	background-repeat: no-repeat;
+	display: none;
+}
+.ul-services, .services-container{
+	display: inline-block;
+	vertical-align: top;
+	
+}
+.services p {
+  width: 400px;
+  margin-bottom: 75px;
+}
+/*
+.service p {
+  width: 400px;
+  margin-bottom: 75px;
+}
+
+
+.services-item:first-child{
+	width: 500px;
+	padding-top: 20px;
+	padding-left:30px;
+
+	background: url(../img/delivery.png) no-repeat;
+	
+}
+.servvices-item:nth-child(2){
+	width: 500px;
+    background: url(../img/guarantee.png) no-repeat;
+	display: none;
+}
+.services-item p{
+	width: 280px;
+}
+.guarantee, .credit{
+	display: none;
 }
 */
 
-		
+/* 
+
+
+
+
+
+.service-list {
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  width:240px;
+  margin-bottom: 100px;
+  margin-right: 70px;
+}
+
+.service-description, 
+.guarantee-description,
+.credit-description {
+  display: inline-block;
+  vertical-align: top;
+  width: 620px;
+}
+
+.service-description h2 {
+  margin-bottom: 35px;
+  color: #32425c;
+}
+
+.guarantee-description,
+.credit-description {
+  display: none;
+}
+
+
+
+*/
+.about{
+	width: 1200px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+.ul-services, .services-item{
+	display: inline-block;
+	outline: 1px solid green;
+}
+.ul-services{
+	width: 300px;
+}
+
+
+
+
+
+.about-item, .contacts{
+	display: inline-block;
+}
+
+.about-item{
+	width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+
+
+background-color: #293449;
+}
+.top-footer{
+background-color: #32425c;
+}
+
+.top-footer a, .main-footer-navigation {
+display: inline-block;
+}
+.main-footer-navigation li{
+display: inline-block;
+}
+.main-footer-navigation{
+	width: 693px;
+	
+	text-align: right;
+}
+.top-footer a{
+	
+	width: 240px;
+	padding-bottom: 20px;
+}
+.top-footer .address, .category-navigation{
+	display: inline-block;
+	vertical-align: top;
+
+}
+.category-navigation li{
+	display: inline-block;
 	
 }
-.just-to-try{
-	border: 10px solid black;
-	height: 100px;
-	   background-color: #2ecc71;
-    background-image: url("/img/Hitachi.png");
-	background-position: center;
+.address{
+	margin-top: 0;
+	vertical-align: text-top;
+display: inline-block;
+
+}
+
+.category-navigation{
+	display: inline-block;
+	width: 590px;
+	text-align: right;
+	vertical-align: text-top;
+	min-height: 54px;
+	padding-top: 14px;
+
+
+}
+
+.sub-footer{
+	display: inline-block;
+}
+.copyright, .social-networks, .connection-back{
+display:inline-block;
+
+vertical-align: bottom;
+}
+.connection-back p{
+display:inline-block;
+}
+.sub-footer{
+width: 100%;
+	margin: 0 auto;
 	
 }
+.sub-footer-container{
+	width: 940px;
+	margin: 0 auto;
+}
+/*
+.main-footer-navigation{
+margin-left:500px;
+}
+.address, .category-navigation{
+display: inline-block;
+}
+.category-navigation li{
+display:inline-block;
+}
+.category-navigation{
+margin-left:300px;
+}
+
+.copyright, .social-networks, .connection-back{
+display:inline-block;
+
+vertical-align: middle;
+}
+.connection-back p{
+display:inline-block;
+}
+.sub-footer{
+text-align: center;
+}
+
+
+
+
+
+
+
+/* КАТАЛОГ */
+
+
+.nav li{
+	display: inline-block;
+}
+
+.headline{
+	background: #f2f6f8;
+	width: 940px;
+}
+
+.filter, .catalog{
+	display: inline-block;
+	vertical-align: top;
+} 
+.companies{
+	display: block;
+}
+
+.catalog{
+	width: 700px;
+	outline: 1px solid red;
+}
+
+.filter{
+	width: 200px;
+}
+.catalog .popular-things-item:nth-child(4){
+	margin-right: 0;
+}
+.catalog .popular-things-item:nth-child(7){
+	margin-right: 0;
+}
+.catalog .popular-things-item:nth-child(10){
+	margin-right: 0;
+}
+.page-list li{
+	display: inline-block;
+}
+.sorting li{
+	display: inline-block;
+}
+.about-goods{
+	width: 100%;
+	background: #f2f6f8;
+margin: 0 auto;
+}
+
+
+
+
+
