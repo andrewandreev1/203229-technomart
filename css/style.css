@@ -184,6 +184,7 @@ width: 100%;
 .popular-things-item:last-child{
 	margin-right: 0px;
 }
+
 .popular-things-item{
 	display:inline-block;
 
@@ -196,6 +197,12 @@ width: 100%;
 	vertical-align: top;
 
 	border:1px solid #e5e5e5;
+}
+.popular-things .popular-things-item{
+margin-right: 19.5px;	
+}
+.popular-things-item:last-child{
+	margin-right: 0px;
 }
 .popular-things-item img{
   margin: 0 auto;
@@ -218,7 +225,7 @@ display: block;
 	display:inline-block;
   height: 145px;
 	width: 215px;
-  margin-right: 20px;
+  margin-right: 19.5px;
 	margin-bottom: 20px;
 
 	border: 1px solid #e5e5e5;
@@ -372,7 +379,7 @@ display: block;
 
 
 footer{
-outline: 1px solid red;
+
 
 background-color: #293449;
 }
@@ -387,19 +394,19 @@ display: inline-block;
 display: inline-block;
 }
 .main-footer-navigation{
-	width: 696px;
-	outline: 1px solid red;
+	width: 693px;
+	
 	text-align: right;
 }
 .top-footer a{
-	outline: 1px solid red;
+	
 	width: 240px;
 	padding-bottom: 20px;
 }
 .top-footer .address, .category-navigation{
 	display: inline-block;
 	vertical-align: top;
-	outline: 1px solid red;
+
 }
 .category-navigation li{
 	display: inline-block;
@@ -408,13 +415,13 @@ display: inline-block;
 .address{
 	margin-top: 0;
 	vertical-align: text-top;
-
+display: inline-block;
 
 }
 
 .category-navigation{
 	display: inline-block;
-	width: 596px;
+	width: 590px;
 	text-align: right;
 	vertical-align: text-top;
 	min-height: 54px;
@@ -422,11 +429,7 @@ display: inline-block;
 
 
 }
-.bcn{
-	display: inline-block;
-	width: 596px;
-	vertical-align: top;
-}
+
 .sub-footer{
 	display: inline-block;
 }
