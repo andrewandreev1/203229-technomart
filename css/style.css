@@ -1,3 +1,4 @@
+
 .body{
 	width: 1200px;
 }
@@ -12,7 +13,9 @@ ul li{
 }
 
 a{
-		color: green;
+		color: white;
+	text-decoration:none;
+	
 }
 
 a, form, input{
@@ -53,50 +56,40 @@ width: 100%;
 }
 .bargain{
 	width: 150px;
-	outline: 1px solid green;
+	
 }
 .cart{
 	width: 150px;
-	outline: 1px solid green;
+	
 }
 .bookmarks{
 
 	width: 150px;
-	outline: 1px solid green;	
+		
 }
 .search-after{
 	display: inline-block;
 	outline: 1px solid green;
-	width:200px;
+	width:100px;
 }
 .sub-header{
   width:940px;
 		margin:0 auto;
 }
 
-.description, .contacts, .user-block{
-	width: 310px;
-	outline: 1px solid green;
-}
-
 
 .main-navigation li{
 	display: inline-block;
 
-	min-height: 40px;
 }
 
 .main-navigation{
 	width: 940px;
 
-	background-color: #293449;
+	background-color: #32425c;
 }
-.main-navigation li{
-	margin-left:50px;
-}
-.main-navigation li:first-child{
-	margin-left:30px;
-}
+
+
 
 
 
@@ -534,4 +527,194 @@ margin: 0 auto;
 
 
 
+/* */
 
+.logo{
+	padding:4px 45px;
+	background:#ee3643;
+	box-shadow: 0 5px #b52933;
+	font-family:Cuprum, Arial, serif;
+	font-size: 24px;
+    color:white;
+	text-decoration: none;
+	font-family: "cuprum" sans-serif;
+	text-transform: uppercase;
+	
+}
+.logo:hover{
+	background: #ca2c37;
+}
+.logo:active{
+	background: #ba2732;
+}
+.search{
+	font-family:Cuprum, Arial, serif;
+	width:270px;
+	margin:0;
+	display: inline-block;
+	min-height:33px;	
+	background: #293449;
+}
+.search:focus{
+	background: #fff;
+
+}
+.search:hover{
+	background: #212a3a;
+}
+.bookmarks:hover{
+	background: #212a3a;
+}
+.cart:hover{
+	background: #212a3a;
+}
+.bookmarks:active{
+	background: #161d29;
+}
+.cart:active{
+	background: #161d29;
+}
+.bookmarks, .cart, .bargain{
+	padding-top:10px;
+	padding-bottom:10px;
+	width:150px;
+	text-align:center;
+	background: #293449;
+}
+
+.bargain{
+	background: #63a63e;
+}
+.bargain:hover{
+	background: #5fbb2d;
+}
+.bargain:active{
+	background: #518534;
+}
+@font-face{
+	font-family:Cuprum;
+	src: url(../fonts/Cuprum/Cuprum-Regular.ttf);
+	font-weight:normal;
+}
+@font-face{
+	font-family:Cuprum_italic;
+	src: url(../fonts/Cuprum/Cuprum-Italic.ttf)
+}
+.description{
+       font-family:Cuprum_italic; 
+	color:#ee3643;
+	padding:10px 55px;
+	width: 200px;
+	
+}
+.number{
+	font-family: Cuprum;
+	padding-top:10px;
+	padding-bottom: 10px;
+	margin:0 auto;
+	width:266px;
+	border: 2px solid #ffffff;
+	color:red;
+	font-size:21px;
+	margin-top:25px;
+}
+.contacts{
+		width: 310px;
+	
+	text-align:center;
+}
+.contacts p{
+	font-family: Cuprum;
+	font-size: 14px;
+	color:#32425c;
+	margin-top:5px;
+}
+.login, .registration{
+
+	background: #fff;
+	padding:12px 25px;
+	
+}
+.login:hover{
+	color:red;
+}
+.registration:hover{
+	color:red;
+}
+.login:active{
+	opacity: 0.5;
+	color: #b2b2b2;
+}
+.registration:active{
+opacity: 0.5;
+	color: #b2b2b2;
+}
+.login{
+	margin-right:10px;
+}
+.user-block{
+	width: 310px;
+
+	text-align: right;
+	font-family: Cuprum;
+	font-size: 21px;
+	margin-top:25px;
+	
+}
+
+.bread-crumbs li{
+	font-family: Cuprum;
+	font-size: 17px;
+	
+	padding:19px 30px;
+	
+}
+.bread-crumbs li:hover{
+	background: #293449;
+}
+.bread-crumbs li:active{
+	background:#1d2739 ;
+	color:#8e939c ;
+}
+.bread-crumbs{
+	margin-left: 20px;
+}
+.main-navigation{
+	box-shadow: 0 5px 0 0 #293449;
+}
+
+.catalog-user-block{
+
+	font-family: Cuprum;
+}
+.my-orders, .personal-area{
+	display:inline-block;
+
+	font-size: 16px;
+}
+.account{
+	font-size: 21px;
+	background: #fff;
+	padding: 12px 20px;
+    text-align: center;
+}
+.catalog-ub-ul li{
+	display: inline-block;
+	
+	
+}
+.catalog-ub-ul a{
+color: #32425c;
+	text-decoration: underline;
+	
+	
+}
+.catalog-ub-ul li:last-child{
+	margin-right: 65px;
+}
+.catalog-ub-ul li:first-child{
+	margin-right: 35px;
+}
+.catalog-cart{
+	background: #ee3643;
+}
