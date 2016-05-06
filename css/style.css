@@ -91,39 +91,6 @@ width: 100%;
 }
 
 
-
-
-
-
-
-.everything-item{
-  display: inline-block;
-	vertical-align: top;
-	width: 300px;
-	height: 123px;
-	margin-right: 20px;
-	margin-bottom: 20px;
-
-	outline:1px solid green;
-}
-.first-everything .everything-item:first-child{
-	background: #f6b22d;
-}
-.first-everything .everything-item:nth-child(2){
-	background: #4aafde;
-}
-.first-everything .everything-item:nth-child(3){
-	background: #cc79d1;
-}
-.main-list {
-	background: url(../img/background.png) no-repeat;
-}
-.third-everything .everything-item:first-child{
-	background: #85d179;
-}
-.third-everything .everything-item:last-child{
-	background: #f6b22d;
-}
 .everything-item:nth-child(3){
   margin-right: 0;
 }
@@ -145,14 +112,6 @@ width: 100%;
 }
 
 
-
-
-
-
-
-
-
-
 .user-block a{
 	color:black;
 
@@ -163,18 +122,11 @@ width: 100%;
 .popular-things{
 	width: 940px;
 }
-.popular{
-	width: 940px;
-	min-height:89px;
 
-	background-color:#f7f3ec;
-}
 .popular h2, a{
 	display: inline-block;
 }
-.popular a{
-	padding-top:40px;
-}
+
 .popular-things-item:last-child{
 	margin-right: 0px;
 }
@@ -507,7 +459,7 @@ margin: 0 auto;
 /* */
 
 .logo{
-	padding:4px 45px;
+	padding:4px 52px;
 	background:#ee3643;
 	box-shadow: 0 5px #b52933;
 	font-family:Cuprum, Arial, serif;
@@ -807,4 +759,79 @@ display: inline-block;
 }
 .connection-back a:active{
 	color: #ee3643;
+}
+
+.everything-item{
+  display: inline-block;
+	vertical-align: top;
+	width: 300px;
+	height: 123px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+    color: #fff;
+	outline:1px solid green;
+	
+	
+	
+}
+.first-everything .everything-item:first-child{
+	background: #f6b22d url(../img/materials.png) no-repeat 215px 30px;
+}
+.first-everything .everything-item:nth-child(2){
+	background: #4aafde url(../img/drel.png) no-repeat 200px 30px;;
+}
+.first-everything .everything-item:nth-child(3){
+	background: #cc79d1 url(../img/car.png) no-repeat 190px 30px;
+}
+.main-list {
+	background: url(../img/background.png) no-repeat;
+}
+.third-everything .everything-item:first-child{
+	background: #85d179 url(../img/sale.png) no-repeat 200px 30px;
+}
+.third-everything .everything-item:last-child{
+	background: #f6b22d url(../img/delivery-small.png) no-repeat 200px 30px;
+}
+
+.everything-item h2{
+	padding:0 25px;
+	font-family:Cuprum_bold;
+	font-size: 24px;
+}
+.everything-item a{
+	font-family: Cuprum;
+	font-size: 14px;
+	width: 135px;
+	text-align: center;outline: 1px solid green;
+	margin-left:25px;
+	border-radius: 200px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+@font-face{
+	font-family:Cuprum_bold;
+	src: url(../fonts/Cuprum/Cuprum-Bold.ttf);
+	
+}
+
+.popular{
+	width: 940px;
+	min-height:89px;
+
+	background-color:#f7f3ec;
+}
+.popular h2 {
+	font-family: Cuprum;
+	font-size: 30px;
+	color:#32425c;
+	padding-left: 30px;
+}
+.popular a{
+	width: 255px;
+	outline: 1px solid green;
+	margin-top: 40px;
+	font-family: Cuprum;
+	font-size: 14px;
+	text-align: center;
 }
