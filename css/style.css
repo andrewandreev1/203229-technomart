@@ -228,20 +228,6 @@ margin-right: 19.5px;
 
 
 
-.about-item, .contacts{
-	display: inline-block;
-}
-
-.about-item{
-	width: 50%;
-}
-
-
-
-
-
-
-
 
 
 
@@ -355,9 +341,6 @@ text-align: center;
 	outline: 1px solid red;
 }
 
-.filter{
-	width: 200px;
-}
 .catalog .popular-things-item:nth-child(4){
 	margin-right: 0;
 }
@@ -641,11 +624,11 @@ display: inline-block;
 	min-height: 54px;
 
 }
-.category-navigation li{
+.category-navigation li a{
 	padding-left:55px;
 	color:#f1c77e;
 }
-.categoty-navigation a:hover{
+.category-navigation li a:hover{
 	text-decoration:underline; 
 }
 .category-navigation li:active{
@@ -807,6 +790,7 @@ display: inline-block;
 	font-size: 30px;
 	color:#32425c;
 	padding-left: 30px;
+	text-transform: uppercase;
 }
 
 .popular a{
@@ -856,6 +840,7 @@ display: inline-block;
 	font-size: 30px;
 	color: #32425c;
 	padding-left: 30px;
+	text-transform: uppercase;
 }
 .h-popular-companies a{
 	width: 255px;
@@ -891,6 +876,7 @@ display: inline-block;
 	font-family: Cuprum;
 	font-size: 30px;
 	color: #000;
+	text-transform: uppercase;
 }
 .services-p {
 	
@@ -970,6 +956,7 @@ display: inline-block;
 	font-family: Cuprum;
 	font-size: 30px;
 	color: #32425c;
+	text-transform: uppercase;
 	
 	
 }
@@ -989,4 +976,224 @@ display: inline-block;
 }
 .services-item:last-child a{
 	margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+.contacts-main{
+	width: 300px;
+	text-align: left;
+}
+.contacts-main a:last-child{
+	width: 300px;
+	background: #ee3643;
+	text-align: center;
+	padding-bottom: 12px;
+	padding-top: 12px;
+	font-family: Cuprum;
+	font-size: 14px;
+	border-radius: 2px;
+}
+.contacts-main h2{
+	font-family: Cuprum;
+	font-size: 30px;
+	margin-top: 80px;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+}
+.contacts-main p{
+	font-family: Cuprum;
+	font-size: 13px;
+	margin-bottom: 35px;
+}
+.contacts-main a img{
+	margin-bottom: 40px;
+	
+}
+
+
+
+
+
+.about-item, .contacts{
+	display: inline-block;
+}
+
+.about-item{
+	width: 636px;
+	font-family: Cuprum;
+}
+.about-item h2{
+	margin-top: 80px;
+	font-size: 30px;
+	margin-bottom: 25px;
+    text-transform: uppercase;
+}
+.about-item p{
+	font-size: 13px;
+	
+}
+.about-item .delivery-companies li{
+	font-size: 18px;
+	
+}
+.about-item .delivery-companies{
+	margin-top: 25px;
+}
+.about-item a{
+	width: 220px;
+	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	font-family:Cuprum;
+	font-size: 14px;
+	background: #ee3643;
+	border-radius: 2px;
+	margin-top: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*catalog*/
+
+.about-goods h2{
+	margin-top: 0;
+	padding-top: 65px;
+	text-transform: uppercase;
+	font-family: Cuprum;
+	font-size: 30px;
+	margin-bottom: 35px;
+}
+.about-goods p{
+	margin-bottom: 0;
+	font-family: Cuprum;
+	font-size: 13px;
+	padding-bottom: 75px;
+}
+
+
+
+.nav li a{
+	color:#000;
+	font-family: PT Sans Regular;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+.headline h1{
+	font-family: Cuprum;
+	color: #32425c;
+	font-size: 30px;
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-bottom: 35px;
+}
+
+
+
+.filter{
+	
+	width: 220px;
+	margin-right: 15px;
+	font-family: PT Sans Regular;
+}
+.s-filter{
+	padding: 15px 20px;
+	font-size:13px;
+	background: #f7f3ec;
+	border-radius: 2px;
+	text-transform: uppercase;
+}
+@font-face{
+	font-family:PT Sans_Bold;
+	src: url(../fonts/PTSans/bold.ttf);
+}
+.s-price{
+	font-family:PT Sans_Bold;
+	font-size: 17px;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.range{
+	width: 220px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+	background: #f7f3ec;
+	border-radius: 2px;
+	
+}
+.starting-price, .final-price{
+	display: inline-block;
+	
+}
+
+.starting-price{
+	width: 95px;
+}
+.final-price {
+	width: 95px;
+}
+
+.companies h3{
+	font-family:PT Sans_Bold;
+	font-size: 17px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.ul-companies li{
+	text-transform: uppercase;
+	font-family: PT Sans Regular;
+	font-size: 15px;
+	padding-bottom: 12px;
+	
+}
+.power h3{
+	font-family:PT Sans_Bold;
+	font-size: 17px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.power li{
+		text-transform: uppercase;
+	font-family: PT Sans Regular;
+	font-size: 14px;
+	padding-bottom: 12px;
+	line-height: 20px;
+}
+.filter button{
+	margin-top: 70px;
+	width: 140px;
+	text-transform: uppercase;
+	font-family: PT Sans Regular;
+	font-size: 13px;
+	padding-bottom: 12px;
+	padding-top: 12px;
+	line-height: 18px;
+	text-align: center;
+	background: #fff;
+	border: 1px solid #e5e5e5;
+	border-radius: 2px;
+	
 }
