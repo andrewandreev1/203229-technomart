@@ -1122,19 +1122,14 @@ margin-right: 19.5px;
 	right: 25px;
 	
 }
-
-
-
-
-
 .popular-companies-item{
 	display:inline-block;
-    
+    height: 145px;
 	width: 215px;
-    margin-right: 20px;
+    margin-right: 19.5px;
 	margin-bottom: 20px;
 	border: 1px solid #e5e5e5;
-	
+	line-height: 145px;
 	text-align: center;
 
 }
