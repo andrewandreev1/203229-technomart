@@ -635,6 +635,9 @@ margin: 0 auto;
 	margin-top:25px;
 	position: relative;
 }
+.number span:last-child{
+	color: red;
+}
 .contacts{
 		width: 310px;
 	
