@@ -218,23 +218,7 @@ width: 100%;
 
 
 
-.popular-things{
-	width: 940px;
-}
 
-.popular h2, a{
-	display: inline-block;
-}
-
-.popular-things-item:last-child{
-	margin-right: 0px;
-}
-.popular-things .popular-things-item{
-margin-right: 19.5px;	
-}
-.popular-things-item:last-child{
-	margin-right: 0px;
-}
 .popular-companies h2{
 	display: inline-block;
 }
@@ -1009,6 +993,12 @@ display: inline-block;
 }
 
 
+
+
+
+
+
+
 .popular{
 	width: 940px;
 	min-height:89px;
@@ -1037,9 +1027,27 @@ display: inline-block;
 	right: 25px;
 }
 
+.popular-things{
+	width: 940px;
+}
+
+.popular h2, a{
+	display: inline-block;
+}
+
+.popular-things-item:last-child{
+	margin-right: 0px;
+}
+.popular-things .popular-things-item{
+margin-right: 19.5px;	
+}
+.popular-things-item:last-child{
+	margin-right: 0px;
+}
+
 .popular-things-item{
 	display:inline-block;
-	width: 215px;
+	width: 218px;
 	min-height: 322px;
 	margin-top:20px;
 	margin-right: 20px;
@@ -1070,6 +1078,17 @@ display: inline-block;
 	outline: 1px solid green;
 	
 }
+
+
+
+
+
+
+
+
+
+
+
 .h-popular-companies {
 	width: 940px;
     position:relative;
@@ -1103,14 +1122,19 @@ display: inline-block;
 	right: 25px;
 	
 }
+
+
+
+
+
 .popular-companies-item{
 	display:inline-block;
-    height: 145px;
+    
 	width: 215px;
-    margin-right: 19.5px;
+    margin-right: 20px;
 	margin-bottom: 20px;
 	border: 1px solid #e5e5e5;
-	line-height: 145px;
+	
 	text-align: center;
 
 }
@@ -1159,7 +1183,10 @@ display: inline-block;
 .ul-services li:hover{
 	background: #293449;
 }
-
+.ul-services li:active{
+	color: #32425c;
+	background: #ffffff;
+}
 .services{
 	padding-top: 20px;
 
@@ -1430,6 +1457,35 @@ display: inline-block;
 	padding-bottom: 12px;
 	
 }
+
+.ul-companies input[type="checkbox"]{
+	display: none;
+}
+.ul-companies input[type="checkbox"] + label{
+	display: block;
+	line-height: 20px;
+	position: relative;
+	cursor: pointer;
+	
+	padding-left: 30px;
+}
+.ul-companies input[type="checkbox"] + label::before{
+	font-family: "symbols-technomart";
+	content: "\2610";
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 24px;
+	width: 10px;
+	height: 10px;
+	color: #c1c1c1;
+}
+.ul-companies input[type="checkbox"]:checked + label::before{
+	content: "\2611";
+	
+}
+
+
 .power h3{
 	font-family:PT Sans_Bold;
 	font-size: 17px;
@@ -1444,6 +1500,35 @@ display: inline-block;
 	padding-bottom: 12px;
 	line-height: 20px;
 }
+
+.power input[type="radio"]{
+	display: none;
+}
+.power input[type="radio"]+ label{
+	display: block;
+	line-height: 20px;
+	position: relative;
+	cursor: pointer;
+	
+	padding-left: 30px;
+}
+.power input[type="radio"] + label::before{
+	font-family: "symbols-technomart";
+	content: "\25cb";
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 24px;
+	width: 10px;
+	height: 10px;
+	color: #c1c1c1;
+}
+.power input[type="radio"]:checked + label::before{
+	content: "\25cf";
+}
+
+
+
 .filter button{
 	margin-top: 70px;
 	width: 140px;
