@@ -134,6 +134,7 @@ a, form, input{
 
 	width:940px;
 	margin:0 auto;
+	position: relative;
 }
 
 
@@ -530,7 +531,7 @@ margin: 0 auto;
 	text-transform: uppercase;
 	border-bottom: 5px solid #b52933;
 	top: 0;
-	left:125px;
+	left:0px;
 
 
 }
@@ -775,48 +776,71 @@ color: #32425c;
 
 	font-family: Cuprum;
 	font-size: 30px;
-	padding: 15px 50px;
+	line-height: 30px;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	width: 220px;
 	margin-right: 20px;
 	background: #ee3643;
-	box-shadow: 0 5px 0 0 #b52933;
+	border-bottom:5px solid #b52933;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: lighter;
 
 }
 .main-footer-navigation{
-
 	width: 663px;
-	margin-left:30px;
+	margin-left:32px;
 	text-align: right;
+	position: relative;
+	top: 15px;
 }
 .main-footer-navigation li{
-	padding-left: 60px;
+	padding-left: 30px;
 		color:#f1f5f7;
 }
-.main-footer-navigation li:hover{
+.main-footer-navigation li:not(:last-child){
+	padding-right: 30px;
+}
+.main-footer-navigation a{
+	font-weight: lighter;
+	font-family: "Cuprum", "Arial", sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+}
+.main-footer-navigation li:hover a{
 	text-decoration: underline;
 }
-.main-footer-navigation li:active{
+.main-footer-navigation li:active a{
 	opacity: 0.5;
 }
 .address{
-
-	font-family: Cuprum;
-	font-size: 18px;
+	width: 350px;
+	
 	color: #f1f5f7;
 	margin-top: 20px;
 	vertical-align: text-top;
-display: inline-block;
-	margin-bottom: 40px;
-
+    display: inline-block;
+	margin-bottom: 20px;
+	font-family:"Cuprum", "Arial", sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+    position: relative;
+	bottom:10px;
 }
 
 .category-navigation{
-
 	padding-top: 40px;
+	font-family:"Cuprum", "Arial", sans-serif;
+    font-size: 18px;
+	line-height: 24px;
 	display: inline-block;
-	width: 628px;
+	width: 585px;
 	text-align: right;
 	vertical-align: text-top;
 	min-height: 54px;
+	position: relative;
+	bottom: 10px;
 
 }
 .category-navigation li a{
@@ -832,24 +856,31 @@ display: inline-block;
 /* sub-footer */
 
 .copyright{
-	margin-top: 30px;
+	margin-top: 22px;
 	margin-right: 135px;
 	font-size: 16px;
-	flow-from: Cuprum;
+	font-family: "Cuprum", "Arial", sans-serif;
+	font-size: 16px;
+	line-height: 18px;
 	color:#fff;
+	font-weight: lighter;
 
 }
 .connection-back{
 	font-size: 16px;
-	flow-from: Cuprum;
-	margin-top: 30px;
+	font-family: "Cuprum", "Arial", sans-serif;
+	margin-top: 22px;
+	color: white;
+	line-height:18px ;
+	font-weight: lighter;
 
 
 
 }
 .social-networks{
-	margin-right: 91px;
-	margin-top:45px;
+	margin-right: 121px;
+	margin-top:37px;
+	margin-left: 33px;
 }
 .social-networks a{
 	font-size:0;
@@ -871,7 +902,7 @@ display: inline-block;
 
 }
 .connection-back p:first-child{
-	padding-right: 40px;
+	padding-right: 50px;
 }
 .connection-back a{
 	color: #f5c97d;
@@ -1226,7 +1257,7 @@ font-weight: bold;
 	display: none;
 }
 .services-item:last-child a{
-	background: #ee3643;
+	background: red;
 	width: 198px;
 	text-align: center;
 	padding-bottom: 12px;
@@ -1305,6 +1336,9 @@ font-weight: bold;
 }
 .contacts-main a img{
 	margin-bottom: 35px;
+}
+.contacts-main a:last-child{
+	margin-bottom: 34px;
 
 }
 
@@ -1357,19 +1391,20 @@ font-weight: bold;
 	background: red;
 }
 .about-item .delivery-companies{
-	margin-top: 25px;
+	margin-top: 22px;
 
 }
 .about-item a{
 	width: 220px;
 	text-align: center;
-	padding-top: 12px;
-	padding-bottom: 12px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	font-family:Cuprum;
 	font-size: 14px;
+	line-height: 18px;
 	background: #ee3643;
 	border-radius: 2px;
-	margin-top: 35px;
+	margin-top: 16px;
 }
 
 
