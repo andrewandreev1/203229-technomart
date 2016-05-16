@@ -379,7 +379,7 @@ text-align: center;
 .sorting,
 .sort-updown{
 	
-	outline: 1px solid green;
+	
 	background: #f7f3ec;
 	padding: 10px 20px;
 	font-size:13px;
@@ -400,12 +400,12 @@ text-align: center;
 .sort-updown li,
 .sort-updown a{
   color: grey;
-	outline: 1px solid green;
+	
 }
 
 .sort-updown li{
 	display: inline-block;
-	outline: 1px solid red;
+	
 margin: 0;
 	
 }
@@ -648,11 +648,11 @@ opacity: 0.5;
 	line-height: 18px;
 }
 .login span{
-	outline: 1px solid green;
+	
 }
 .user-block{
 	width: 310px;
-    outline: 1px solid green;
+ 
 	text-align: right;
 	font-family: Cuprum;
 	font-size: 21px;
