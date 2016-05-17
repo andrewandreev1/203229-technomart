@@ -2009,7 +2009,7 @@ box-shadow: 0 0 30px 30px rgba(0, 0, 0, 0.3);
 .second-f-part input[type="submit"]{
 	padding: 0;
 	border: none;
-	background: red;
+	background: #ee3643;
 	font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 14px;
 	line-height: 18px;
