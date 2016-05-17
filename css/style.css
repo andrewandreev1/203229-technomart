@@ -547,7 +547,7 @@ margin: 0 auto;
     width: 270px;
     padding: 12px;
     padding-left: 49px;
-    font-family: Cuprum, "Arial", sans-serif;
+    font-family: "Cuprum", "Arial", sans-serif;
     font-size: 17px;
     line-height: 18px;
     color: #ffffff;
@@ -627,7 +627,7 @@ margin: 0 auto;
 
 }
 .number{
-	font-family: Cuprum;
+	font-family: "Cuprum", "Arial", sans-serif;
 	padding-top:9px;
 	padding-bottom: 6px;
 	margin:0 auto;
@@ -649,7 +649,7 @@ margin: 0 auto;
 	text-align:center;
 }
 .contacts p{
-	font-family: Cuprum;
+	font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 14px;
 	color:#32425c;
 	margin: 0;
@@ -698,7 +698,7 @@ opacity: 0.5;
 	width: 310px;
  
 	text-align: right;
-	font-family: Cuprum;
+	font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 21px;
 	margin-top:25px;
 	
@@ -706,7 +706,7 @@ opacity: 0.5;
 }
 
 .bread-crumbs li{
-	font-family: Cuprum;
+	font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 17px;
     line-height: 17px;
 	padding:18px 30px;
@@ -729,7 +729,7 @@ opacity: 0.5;
 
 .catalog-user-block{
 
-	font-family: Cuprum;
+	font-family: "Cuprum", "Arial", sans-serif;
 }
 .my-orders, .personal-area{
 	display:inline-block;
@@ -786,7 +786,7 @@ color: #32425c;
 
 .footer-logo{
 
-	font-family: Cuprum;
+	font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 30px;
 	line-height: 30px;
 	padding-top: 17px;
@@ -993,14 +993,14 @@ color: #32425c;
 	background: rgba(0, 0, 0, 0.3);
 }
 .everything-item h2{
-	font-family: Cuprum;
+	font-family: "Cuprum", "Arial", sans-serif;
 	padding:0 25px;
     font-weight: bold;
 	font-size: 24px;
 	line-height: 30px;
 }
 .everything-item a{
-	font-family: Cuprum;
+    font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 14px;
 	width: 135px;
 	text-align: center;
@@ -1048,7 +1048,7 @@ color: #32425c;
 	bottom:20px;
 	left: 25px;
 	text-align: center;
-	font-family: Cuprum;
+    font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 14px;
 	padding-top: 12px;
 	padding-bottom: 12px;
@@ -1095,7 +1095,7 @@ font-weight: bold;
 	margin-bottom: 20px;
 }
 .popular h2 {
-	font-family: Cuprum;
+    font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 30px;
 	color:#32425c;
 	padding-left: 30px;
@@ -1105,7 +1105,7 @@ font-weight: bold;
 .popular a{
 	width: 255px;
 	margin-top: 25px;
-	font-family: Cuprum;
+    font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 14px;
 	text-align: center;
 	background: #ee3643;
@@ -1142,7 +1142,7 @@ font-weight: bold;
 
 }
 .h-popular-companies h2{
-	font-family: Cuprum;
+    font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 30px;
 	color: #32425c;
 	padding-left: 30px;
@@ -1154,7 +1154,7 @@ font-weight: bold;
 .h-popular-companies a{
 	width: 255px;
      margin-top: 25px;
-	font-family: Cuprum;
+    font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 14px;
 	text-align: center;
 	background: #ee3643;
@@ -1189,7 +1189,7 @@ font-weight: bold;
 }
 .services h2{
 	margin-top: 48px;
-	font-family: Cuprum;
+    font-family: "Cuprum", "Arial", sans-serif;
 	font-weight: lighter;
 	font-size: 30px;
 	color: #000;
@@ -1200,7 +1200,7 @@ font-weight: bold;
 .services-p {
 
 	width: 400px;
-	font-family: Cuprum;
+    font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 13px;
 
 }
@@ -1274,13 +1274,13 @@ font-weight: bold;
 	text-align: center;
 	padding-bottom: 12px;
 	padding-top: 12px;
-	font-family: Cuprum;
+    font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 14px;
 	border-radius: 2px;
 	height: auto;
 }
 .services-item h3{
-	font-family: Cuprum;
+    font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 36px;
 	line-height: 24px;
 	margin-top: 27px;
@@ -1326,13 +1326,13 @@ font-weight: bold;
 	text-align: center;
 	padding-bottom: 12px;
 	padding-top: 12px;
-	font-family: Cuprum;
+    font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 14px;
 	border-radius: 2px;
 }
 .contacts-main h2{
     font-weight: lighter;
-	font-family: Cuprum;
+    font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 30px;
 	margin-top: 77px;
 	margin-bottom: 22px;
@@ -1364,7 +1364,7 @@ font-weight: bold;
 
 .about-item{
 	width: 636px;
-	font-family: Cuprum;
+    font-family: "Cuprum", "Arial", sans-serif;
 }
 .about-item h2{
 	font-weight: lighter;
@@ -1411,7 +1411,7 @@ font-weight: bold;
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	font-family:Cuprum;
+    font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 14px;
 	line-height: 18px;
 	background: #ee3643;
@@ -1899,7 +1899,7 @@ font-weight: bold;
 
 
 .modal-content{
-	
+	display: none;
 	
 	width: 620px;
 min-height: 424px;
