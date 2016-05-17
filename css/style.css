@@ -5,14 +5,12 @@
 
 
 @font-face {
-  font-weight: normal;
-  font-style: normal;
-
-  
-  src: url("../fonts/symbols-technomart.woff") format("woff"),
-       url("../fonts/symbols-technomart.woff2") format("woff2");
+font-weight: normal;
+font-style: normal;
+font-family: "symbols-technomart";
+src: url("../fonts/symbols-technomart.woff") format("woff"),
+url("../fonts/symbols-technomart.woff2") format("woff2");
 }
-
 
 
 [class^="icon-"]::before,
@@ -2010,13 +2008,11 @@ box-shadow: 0 0 30px 30px rgba(0, 0, 0, 0.3);
 	text-align: center;
 	position: absolute;
 	top: 2315px;
-	
-	
+	background-image: url(../img/big-map.png);
+	background-repeat: no-repeat;
+	background-position: center;
 }
-.main-popup img{
-	margin: 0 auto;
-	position: relative;
-}
+
 .main-popup-close{
 	position: absolute;
   top: 9px;
@@ -2063,7 +2059,7 @@ box-shadow: 0 0 30px 30px rgba(0, 0, 0, 0.3);
 
 
 .cart-plus{
-	
+	display: none;
 	
 	width: 620px;
 	border-top: 7px solid red;
