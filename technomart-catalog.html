@@ -15,9 +15,12 @@
     <div class="top-header">
       <div class="container">
         <a href="index.html" class="logo">Техномарт</a><!--
-        --><form>
-          <input type="text" placeholder="Поиск" class="search">
-        </form><!--
+        --><div class="top-search">
+  <form action="get">
+    <input type="text" class="top-search-input" name="search" id="search" placeholder="Поиск:">
+    <label for="search" class="top-search-label"></label>
+  </form>  
+</div><!--
         --><a href="#" class="bookmarks"><span class="icon icon-bookmark"></span>Закладки</a><!--
         --><a href="#" class="cart"><span class="icon icon-basket"></span>Корзина</a><!--
         --><a href="#" class="bargain">Оформить заказ</a>
@@ -37,8 +40,8 @@
 
         --><div class="user-block catalog-user-block">
 					<div class="account">
-						<a href="#"><span class="icon-user"></span>Равшан Джамшутович<span class="icon-logout"></span></a><!--
-						--><a href="#" class="logout"></a>
+						<a href="#"><span class="icon-user"></span>Равшан Джамшутович</a><!--
+						--><a href="#" class="logout"><span class="icon-logout"></span></a>
 		            </div>
 					<ul class="catalog-ub-ul">
 						<li><a class="my-orders" href="#">Мои заказы</a></li><!--
@@ -150,17 +153,17 @@
 
 			<section class="catalog">
 				<div class="sorting">
-						<ul>
+						<ul class="sorting-first">
 						<li>Сортировка:</li>
 						<li><a href="#">по цене</a></li>
 						<li><a href="#">по типу</a></li>
 						<li><a href="#">по функционалу</a></li>
-          </ul><!--
-						<ul class="sort-updown">
-						<li><a href="#" class="up-to-down"><span class="icon-up-dir"></span>nn</a></li>
-						<li><a href="#" class="up-to-up"><span class="icon-down-dir"></span>mm</a></li>
+          </ul>
+						<ul class="sort-up-down">
+						<li><a href="#" class="up-down"><span class="icon-up-dir"></span></a></li>
+						<li><a href="#" class="down-up"><span class="icon-down-dir"></span></a></li>
 						</ul>
--->
+
 				</div>
 
 				<div class="row catalog-row">
@@ -382,10 +385,11 @@
  
 	
 	<div class="cart-plus">
-	<h1></h1>
-		<div>
-		<a></a>
-		<button></button>
+		<button class="cart-plus-close" type="button" title="Закрыть">Закрыть</button>
+	<h1>Товар добавлен в корзину!</h1>
+		<div class="cart-plus-s-p">
+		<a>Оформить заказ</a>
+		<button type="button" title="">Продолжить покупки</button>
 		</div>
 	</div>
 	
