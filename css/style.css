@@ -400,6 +400,8 @@ text-align: center;
 }
 .sort-up-down {
 	padding-right: 15px;
+	padding-top: 9.5px;
+	padding-bottom: 9.5px;
 }
 .sort-up-down li:first-child{
 	margin-right: 15px;
@@ -561,6 +563,9 @@ margin: 0 auto;
 	width:150px;
 	text-align:center;
 	background: #293449;
+	font-family: "Cuprum", "Arial", sans-serif;
+	font-size: 17px;
+	
 }
 
 .bargain{
@@ -1196,6 +1201,7 @@ font-weight: bold;
 .ul-services li:active{
 	color: #32425c;
 	background: #ffffff;
+	border-color: #ffffff; 
 }
 .services{
 	padding-top: 20px;
@@ -1774,12 +1780,24 @@ font-weight: bold;
 	left:10px;
 	opacity: 0.3;
 }
+.actions .buy:hover{
+	background: #5fbb2d;
+}
+.actions .buy:active{
+	background: #518534;
+}
 .actions .bookmark {
   width: 129px;
   padding: 7px 0;
-  color: #63a63e;
+  color: #32425c;
   border: 3px solid #63a63e;
   background-color: #fff;
+}
+.actions .bookmark:hover{
+	border-color: #32425c;
+}
+.actions .bookmark:active{
+	opacity: 0.3;
 }
 
 .popular-things-item:hover .actions {
@@ -2037,11 +2055,15 @@ box-shadow: 0 0 30px 30px rgba(0, 0, 0, 0.3);
 
 
 
-
+.h-cart-plus img,
+.h-cart-plus h1{
+	display: inline-block;
+	vertical-align: middle;
+}
 
 
 .cart-plus{
-	display: none;
+	
 	
 	width: 620px;
 	border-top: 7px solid red;
@@ -2106,6 +2128,7 @@ box-shadow: 0 0 30px 30px rgba(0, 0, 0, 0.3);
 	font-weight: lighter;
 	margin-top: 72px;
 	margin-bottom: 72px;
+	margin-left: 33px;
 	
 }
 .cart-plus-s-p{
