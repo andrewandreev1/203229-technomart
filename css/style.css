@@ -958,6 +958,11 @@ footer {
     margin-left: 23px;
 	margin-right: 0;
 }
+.e-i-tech,
+.e-i-sale,
+.e-i-delivery{
+	margin-right: 0;
+}
 .e-i-sale a {
     margin-top: -7px;
 }
