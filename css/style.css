@@ -967,14 +967,14 @@ footer {
     width: 620px;
     height: 266px;
     margin-right: 20px;
-    background: url(../img/background.jpg) no-repeat;
+    background: #f7f3ec url(../img/background.jpg) no-repeat;
 }
 .main-list-sls {
     position: relative;
     width: 620px;
     height: 266px;
     margin-right: 20px;
-    background: url(../img/slider-drel.png) no-repeat;
+    background: #f7f3ec url(../img/slider-drel.png) no-repeat;
 	display: none;
 }
 .main-list a {
