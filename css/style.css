@@ -925,6 +925,7 @@ footer {
 .everything-item h2 {
     font-family: "Cuprum", "Arial", sans-serif;
     padding: 0 25px;
+	width: 155px;
     font-weight: bold;
     font-size: 24px;
     line-height: 30px;
@@ -932,12 +933,14 @@ footer {
 .everything-item a {
     font-family: "Cuprum", "Arial", sans-serif;
     font-size: 14px;
-    width: 135px;
+    width: 95px;
     text-align: center;
     margin-left: 25px;
     border-radius: 2px;
     padding-top: 11px;
     padding-bottom: 11px;
+	padding-right: 20px;
+	padding-left: 20px;
     margin-bottom: 22px;
     background: rgba(0, 0, 0, 0.1);
     text-transform: uppercase;
