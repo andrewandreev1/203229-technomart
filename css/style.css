@@ -953,6 +953,7 @@ footer {
 .e-i-sale a,
 .e-i-delivery a {
     margin-left: 23px;
+	margin-right: 0;
 }
 .e-i-sale a {
     margin-top: -7px;
